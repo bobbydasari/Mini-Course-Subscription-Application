@@ -16,7 +16,7 @@ const Navbar = () => {
       bg="dark"
       variant="dark"
       expand="lg"
-      className="mb-4"
+      className="mb-4 py-3"
       style={{ background: "rgba(0, 0, 0, 0.3)", backdropFilter: "blur(10px)" }}
     >
       <Container>
