@@ -213,7 +213,7 @@ const Footer = () => {
                       </li>
                       <li style={{ marginBottom: "0.8rem" }}>
                         <a
-                          href="#"
+                          href="/about-us"
                           style={{
                             color: "rgba(255, 255, 255, 0.8)",
                             textDecoration: "none",
@@ -231,7 +231,7 @@ const Footer = () => {
                       </li>
                       <li style={{ marginBottom: "0.8rem" }}>
                         <a
-                          href="#"
+                          href="/contact-us"
                           style={{
                             color: "rgba(255, 255, 255, 0.8)",
                             textDecoration: "none",
@@ -260,7 +260,7 @@ const Footer = () => {
                 <ul style={{ listStyle: "none", padding: 0 }}>
                   <li style={{ marginBottom: "0.8rem" }}>
                     <a
-                      href="#"
+                      href="https://www.privacypolicyonline.com/"
                       style={{
                         color: "rgba(255, 255, 255, 0.8)",
                         textDecoration: "none",
@@ -276,7 +276,7 @@ const Footer = () => {
                   </li>
                   <li style={{ marginBottom: "0.8rem" }}>
                     <a
-                      href="#"
+                      href="https://www.termsfeed.com/"
                       style={{
                         color: "rgba(255, 255, 255, 0.8)",
                         textDecoration: "none",
@@ -292,7 +292,7 @@ const Footer = () => {
                   </li>
                   <li style={{ marginBottom: "0.8rem" }}>
                     <a
-                      href="#"
+                      href="https://www.termsfeed.com/cookie-policy-generator/"
                       style={{
                         color: "rgba(255, 255, 255, 0.8)",
                         textDecoration: "none",
@@ -308,7 +308,7 @@ const Footer = () => {
                   </li>
                   <li style={{ marginBottom: "0.8rem" }}>
                     <a
-                      href="#"
+                      href="https://www.termsfeed.com/cookie-policy-generator/"
                       style={{
                         color: "rgba(255, 255, 255, 0.8)",
                         textDecoration: "none",
