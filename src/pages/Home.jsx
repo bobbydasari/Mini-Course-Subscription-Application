@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import { toast } from "react-toastify";
 import api from "../services/api";
 import CourseCard from "../components/CourseCard";
+import CtaSection from "../components/CtaSection";
+import FaqSection from "../components/FaqSection";
 
 const Home = () => {
   const [courses, setCourses] = useState([]);
@@ -98,6 +100,11 @@ const Home = () => {
           </Row>
         )}
       </Container>
+      {/* FAQ Section */}
+      <FaqSection />
+
+      {/* CTA Section */}
+      <CtaSection />
     </div>
   );
 };

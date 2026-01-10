@@ -158,7 +158,7 @@ const ContactUs = () => {
               <form onSubmit={handleSubmit} noValidate>
                 <div className="mb-3">
                   <label className="form-label">
-                    Full Name <spna className="text-danger fw-bold">*</spna>
+                    Full Name <span className="text-danger fw-bold">*</span>
                   </label>
                   <input
                     type="text"
@@ -179,7 +179,7 @@ const ContactUs = () => {
 
                 <div className="mb-3">
                   <label className="form-label">
-                    Your Subject<spna className="text-danger fw-bold">*</spna>
+                    Your Subject <span className="text-danger fw-bold">*</span>
                   </label>
                   <input
                     type="text"
@@ -200,7 +200,7 @@ const ContactUs = () => {
 
                 <div className="mb-3">
                   <label className="form-label">
-                    Email address<spna className="text-danger fw-bold">*</spna>
+                    Email address <span className="text-danger fw-bold">*</span>
                   </label>
                   <input
                     type="email"
@@ -221,7 +221,7 @@ const ContactUs = () => {
 
                 <div className="mb-3">
                   <label className="form-label">
-                    Message<spna className="text-danger fw-bold">*</spna>
+                    Message <span className="text-danger fw-bold">*</span>
                   </label>
                   <textarea
                     className="form-control"

@@ -19,7 +19,7 @@ const AboutUs = () => {
               />
             </div>
           </div>
-          <div className="col-lg-6 d-flex align-items-center">
+          <div className="col-lg-6 d-flex align-items-center px-5">
             <div className="animate-fade-in-up">
               <h2 className="fw-bold mb-4" style={{ fontSize: "2.5rem" }}>
                 About Our Learning Platform
