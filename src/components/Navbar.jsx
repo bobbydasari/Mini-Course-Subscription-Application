@@ -46,6 +46,16 @@ const Navbar = () => {
                 >
                   My Courses
                 </Nav.Link>
+                <Nav.Link as={Link} to="/about-us" className="text-light mx-2">
+                  About Us
+                </Nav.Link>
+                <Nav.Link
+                  as={Link}
+                  to="/contact-us"
+                  className="text-light mx-2"
+                >
+                  Contact Us
+                </Nav.Link>
                 <span className="text-light mx-3">
                   Welcome, <strong>{user?.name}</strong>
                 </span>
@@ -59,9 +69,21 @@ const Navbar = () => {
                 </Button>
               </>
             ) : (
-              <Nav.Link as={Link} to="/login" className="text-light">
-                Login
-              </Nav.Link>
+              <>
+                <Nav.Link as={Link} to="/about-us" className="text-light mx-2">
+                  About Us
+                </Nav.Link>
+                <Nav.Link
+                  as={Link}
+                  to="/contact-us"
+                  className="text-light mx-2"
+                >
+                  Contact Us
+                </Nav.Link>
+                <Nav.Link as={Link} to="/login" className="text-light">
+                  Login
+                </Nav.Link>
+              </>
             )}
           </Nav>
         </BSNavbar.Collapse>

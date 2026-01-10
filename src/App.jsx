@@ -7,6 +7,8 @@ import Login from "./pages/Login";
 import Home from "./pages/Home";
 import CourseDetail from "./pages/CourseDetail";
 import MyCourses from "./pages/MyCourses";
+import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
 import { useAuth } from "./context/AuthContext";
 
 function App() {
@@ -47,6 +49,8 @@ function App() {
               </ProtectedRoute>
             }
           />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contact-us" element={<ContactUs />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
