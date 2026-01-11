@@ -484,11 +484,11 @@ Use this format for your project submission:
 
 ```
 🔗 Live Demo
-Frontend: https://mini-course-app.vercel.app
-Backend API: https://mini-course-api.onrender.com
+Frontend: https://mini-course-subscription-applicatio.vercel.app/
+Backend API: https://mini-course-subscription-application.onrender.com
 
 📦 Repository
-GitHub: https://github.com/yourusername/black_friday_edition
+GitHub: https://github.com/bobbydasari/Mini-Course-Subscription-Application
 
 👤 Test Credentials
 Email: john@example.com
