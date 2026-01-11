@@ -14,7 +14,14 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors());
+// CORS configuration - allows all origins for development/deployment
+// For production, you can specify your Vercel domain instead of "*"
+app.use(
+  cors({
+    origin: "*", // Change to your Vercel URL for production: "https://your-app.vercel.app"
+    credentials: true,
+  })
+);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
