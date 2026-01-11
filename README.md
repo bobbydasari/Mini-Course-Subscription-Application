@@ -16,15 +16,23 @@ A full-stack course subscription platform with authentication, promo code valida
 
 ### Home Page
 
-![Home Page](https://via.placeholder.com/800x400?text=Black+Friday+Course+Catalog)
+![Home Page](./public/screenshots/web1.png)
 
 ### Course Detail
 
-![Course Detail](https://via.placeholder.com/800x400?text=Course+Subscription+Page)
+![Course Detail](./public/screenshots/web3.png)
 
 ### My Courses
 
-![My Courses](https://via.placeholder.com/800x400?text=My+Subscribed+Courses)
+![My Courses](./public/screenshots/web2.png)
+
+### footer Page
+
+![Payment Page](./public/screenshots/footer.png)
+
+### login Page
+
+![Payment Page](./public/screenshots/login.png)
 
 ## 🛠️ Tech Stack
 
