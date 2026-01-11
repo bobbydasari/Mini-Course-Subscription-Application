@@ -324,7 +324,7 @@ const API_BASE_URL =
 Create `.env.production` in the root directory:
 
 ```env
-VITE_API_BASE_URL=https://mini-course-api.onrender.com
+VITE_API_BASE_URL=https://mini-course-subscription-application.onrender.com/
 ```
 
 #### Step 3: Add Vercel Configuration
@@ -365,7 +365,7 @@ git push origin main
 5. Add environment variables (if using `.env.production`):
 
 ```
-VITE_API_BASE_URL=https://mini-course-api.onrender.com
+VITE_API_BASE_URL=https://mini-course-subscription-application.onrender.com/
 ```
 
 6. Click **Deploy**

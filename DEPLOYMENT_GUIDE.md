@@ -26,7 +26,7 @@ PORT=5000
 ### Frontend (Vercel)
 
 ```env
-VITE_API_BASE_URL=https://your-backend-url.onrender.com
+VITE_API_BASE_URL=https://mini-course-subscription-application.onrender.com/
 ```
 
 ---
